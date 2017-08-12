@@ -6,14 +6,14 @@
 
         <div class="content">
             <div class=" title m-b-md">
-                Results:
+                Results
             </div>
 
             
             @if(count($shows))
             <ul>
             @foreach ($shows as $show)
-                <li>{{ $show["name"] }}  {{ $show["score"] }}</li>
+                <li>{{ $show["name"] }}&nbsp;&nbsp;&nbsp;{{ $show["score"] }}</li>
             @endforeach
             </ul>
             @else
@@ -21,11 +21,11 @@
             @endif
 
             <form action="search" method="get">
-                <input type="text" placeholder="Search Again" name="search">
-                <input type="submit" text="GO">
+                <input class="input" type="text" placeholder="Search Again" name="search">
+                <input class="submit" type="submit" text="GO">
             </form>
 
-            <div class="links">
+            <div class="links m-t-md">
                 <a  href='{!! url('/'); !!}'>Home</a>
             </div>
 

@@ -18,27 +18,7 @@
                 font-family: 'Raleway', sans-serif;
                 font-weight: 600;
                 height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
+                margin-top: 1%;
             }
 
             .content {
@@ -50,10 +30,42 @@
                 font-weight: 100;
             }
 
+            .label, .input, .submit {
+                font-size: 20px;
+            }
+
+            input[type="text"] {
+              padding: 5px;
+              border: solid 1px #fff;
+              box-shadow: inset 1px 1px 2px 0 #707070;
+              transition: box-shadow 0.3s;
+            }
+            input[type="text"]:focus,
+            input[type="text"].focus {
+              box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+            }
+
+            input[type=submit] {
+                padding:5px 15px; 
+                background:#ccc; 
+                border:0 none;
+                cursor:pointer;
+                -webkit-border-radius: 5px;
+                border-radius: 5px; 
+            }
+
+            input[type=submit]:hover {
+                background:#abc; 
+            }
+
+            .label {
+                padding-right:10px;
+            }
+
             .links > a {
                 color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
+                padding: 0px 25px;
+                font-size: 16px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -63,6 +75,21 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            .m-t-md {
+                margin-top: 30px;
+            }
+
+            ul {
+                list-style-type: none;
+                padding:0;
+            }
+
+            li {
+                padding: 2px;
+                letter-spacing: .05rem;
+            }
+
         </style>
     </head>
 
