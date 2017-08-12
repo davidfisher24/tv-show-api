@@ -17,7 +17,7 @@ Welcome page route
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome')->with(array('error'=>null));
 });
 
 

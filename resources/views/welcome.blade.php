@@ -13,6 +13,10 @@
                 <input type="submit" text="GO">
             </form>
 
+            @if($error)
+                {{$error}}
+            @endif
+
         </div>
     </div>
     
