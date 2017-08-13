@@ -20,3 +20,31 @@ Vue.component('example', require('./components/Example.vue'));
 const app = new Vue({
     el: '#app'
 });
+
+var results = new Vue({
+    el: '#results',
+    data: {
+        list: true,
+        json: false,
+    },
+    methods:{
+        toggle: function(){
+            this.list = !this.list;
+            this.json = !this.json;
+        },
+        copyJson: function(){
+        	document.querySelector('.rawJson').select();
+
+        	try {
+		        var status = document.execCommand('copy');
+		        if(!status){
+		            alert("Cannot copy text");
+		        }else{
+		            alert("The json is now on the clipboard");
+		        }
+		    } catch (err) {
+		        alert('Unable to copy.');
+		    }
+        },
+    }
+});

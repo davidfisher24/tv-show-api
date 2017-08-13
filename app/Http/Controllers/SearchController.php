@@ -35,7 +35,7 @@ class SearchController extends Controller
 			}
 		}
 
-		return view('results')->with(array('shows'=>$shows));
+        return view('results', compact('shows'));
     }
 
     /**

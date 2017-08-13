@@ -9,6 +9,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
+        
 
         <!-- Styles -->
         <style>
@@ -19,6 +21,12 @@
                 font-weight: 600;
                 height: 100vh;
                 margin-top: 1%;
+            }
+
+            .hideJsonClipboard {
+                opacity:0;
+                height:0px;
+                width:0px;
             }
 
             .content {
@@ -96,4 +104,6 @@
     <body>
          @yield('content')
     </body>
+
+    <script src="{{ asset('/js/app.js') }}"></script>
 </html>
