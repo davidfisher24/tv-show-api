@@ -8350,3 +8350,110 @@ button.close {
   }
 }
 
+html,
+body {
+  background-color: #fff;
+  color: #636b6f;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  height: 100vh;
+  margin-top: 1%;
+}
+
+html .hideJsonClipboard,
+body .hideJsonClipboard {
+  opacity: 0;
+  height: 0px;
+  width: 0px;
+}
+
+html .content,
+body .content {
+  text-align: center;
+}
+
+html .title,
+body .title {
+  font-size: 84px;
+  font-weight: 100;
+}
+
+html .label,
+html .input,
+html .submit,
+body .label,
+body .input,
+body .submit {
+  font-size: 20px;
+}
+
+html input[type="text"],
+body input[type="text"] {
+  padding: 5px;
+  border: solid 1px #fff;
+  -webkit-box-shadow: inset 1px 1px 2px 0 #707070;
+          box-shadow: inset 1px 1px 2px 0 #707070;
+  -webkit-transition: -webkit-box-shadow 0.3s;
+  transition: -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s, -webkit-box-shadow 0.3s;
+}
+
+html input[type="text"]:focus,
+body input[type="text"]:focus {
+  -webkit-box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+          box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+}
+
+html input[type=submit],
+body input[type=submit] {
+  padding: 5px 15px;
+  background: #ccc;
+  border: 0 none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+html input[type=submit]:hover,
+body input[type=submit]:hover {
+  background: #abc;
+}
+
+html .label,
+body .label {
+  padding-right: 10px;
+}
+
+html .links > a,
+body .links > a {
+  color: #636b6f;
+  padding: 0px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+html .m-b-md,
+body .m-b-md {
+  margin-bottom: 30px;
+}
+
+html .m-t-md,
+body .m-t-md {
+  margin-top: 30px;
+}
+
+html ul,
+body ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+html ul li,
+body ul li {
+  padding: 2px;
+  letter-spacing: .05rem;
+}
+
