@@ -6,10 +6,15 @@ Built using laravel with vuejs front end componenets
 ## Installation
 
 Clone por download the project on to your server and cd into the directory
+
 Run <i><sub>composer install</sub></i> to install the laravel components (composer must be installed globally)
+
 Create .env file from .env.example and change the APP_ROUTE to your local route
+
 run <i><sub>php artisan key:generate</sub></i> to generate an application key
+
 run <i><sub>npm install</sub></i> to install the front end components (node must be installed globally)
+
 run <i><sub>npm run dev</sub></i> to build the front end components to the public directory
 
 ## Application Structure
