@@ -6,11 +6,11 @@ Built using laravel with vuejs front end componenets
 ## Installation
 
 Clone por download the project on to your server and cd into the directory
-Run <i>composer install</i> to install the laravel components (composer must be installed globally)
+Run <i><sub>composer install</sub></i> to install the laravel components (composer must be installed globally)
 Create .env file from .env.example and change the APP_ROUTE to your local route
-run <i>php artisan key:generate</i> to generate an application key
-run <i>npm install</i> to install the front end components (node must be installed globally)
-run <i>npm run dev</i> to build the front end components to the public directory
+run <i><sub>php artisan key:generate</sub></i> to generate an application key
+run <i><sub>npm install</sub></i> to install the front end components (node must be installed globally)
+run <i><sub>npm run dev</sub></i> to build the front end components to the public directory
 
 ## Application Structure
 
@@ -29,9 +29,9 @@ There is a single scss file for the compiled css of the pages
 
 
 ## Production Dependencines
-Laravel Framework <a href="https://laravel.com/"> </a>
-Vuejs - for front end componenets <a href="https://vuejs.org/"> Vuejs </a>
-Guzzle php http client - for processing api requests in laravel <a href="http://docs.guzzlephp.org/en/stable/">Guzzle php</a>
+Laravel Framework <a href="https://laravel.com/"> </a><br>
+Vuejs - for front end componenets <a href="https://vuejs.org/"> Vuejs </a><br>
+Guzzle php http client - for processing api requests in laravel <a href="http://docs.guzzlephp.org/en/stable/">Guzzle php</a><br>
 
 ## Author
 
